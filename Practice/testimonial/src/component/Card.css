@@ -1,0 +1,10 @@
+.perspective-3d {
+    perspective: 1000px; /* Set perspective to give depth */
+  }
+  
+  .perspective-3d span {
+    display: inline-block; /* Make sure the span is treated as a block for transformation */
+    transform: translateZ(10px) rotateY(-10deg) rotateX(5deg); /* Apply 3D transformations */
+    text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.5), 4px 4px 0 rgba(0, 0, 0, 0.3); /* Add shadows for depth */
+  }
+  
